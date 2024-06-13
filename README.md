@@ -28,8 +28,8 @@ pip install faiss-cpu
 * `webdriver`: To control the web browser.
 * `chrome.service.Service`: To manage the Chrome browser service.
 * `chrome.options.Options`: To set options for Chrome browser.
-* BeautifulSoup: For parsing HTML and extracting text.
-* FAISS: For storing and searching vector embeddings.
+* `BeautifulSoup`: For parsing HTML and extracting text.
+* `FAISS`: For storing and searching vector embeddings.
 * LangChain:
   * `load_qa_chain`: For loading question-answering chains.
   * `Document`: For managing document data.
@@ -51,8 +51,7 @@ pip install faiss-cpu
   * The context is passed into the prompt.
   * The language model generates an answer.
   * The user can continue to interact with the AI through chat.
-* Running the Application
-  * To run the application, use the following command:
+* Running the Application: To run the application, use the following command:
 
 ```bash
 streamlit run your_script.py
