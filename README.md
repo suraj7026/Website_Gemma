@@ -41,17 +41,19 @@ pip install faiss-cpu
 ## Application Workflow
 * User Input: The user provides a URL of a website.
 * Text Extraction: Selenium is used to extract text from the website.
-* Document Processing: The extracted text is split into chunks using RecursiveCharacterTextSplitter.
-The chunks are stored in a vector database using FAISS.
+* Document Processing:
+ * The extracted text is split into chunks using RecursiveCharacterTextSplitter.
+ * The chunks are stored in a vector database using FAISS.
 * Chain Creation: A prompt and model chain is created using LangChain and Google's Gemma model.
-Query Handling:
-The user can ask a query.
-The query is used to fetch relevant context from the vector database.
-The context is passed into the prompt.
-The language model generates an answer.
-The user can continue to interact with the AI through chat.
-Running the Application
-To run the application, use the following command:
+* Query Handling:
+ * The user can ask a query.
+ * The query is used to fetch relevant context from the vector database.
+ * The context is passed into the prompt.
+ * The language model generates an answer.
+ * The user can continue to interact with the AI through chat.
+* Running the Application
+
+* To run the application, use the following command:
 
 ```bash
 streamlit run your_script.py
