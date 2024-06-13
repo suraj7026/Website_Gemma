@@ -42,8 +42,8 @@ pip install faiss-cpu
 * User Input: The user provides a URL of a website.
 * Text Extraction: Selenium is used to extract text from the website.
 * Document Processing:
- * The extracted text is split into chunks using RecursiveCharacterTextSplitter.
- * The chunks are stored in a vector database using FAISS.
+* * The extracted text is split into chunks using RecursiveCharacterTextSplitter.
+* * The chunks are stored in a vector database using FAISS.
 * Chain Creation: A prompt and model chain is created using LangChain and Google's Gemma model.
 * Query Handling:
  * The user can ask a query.
